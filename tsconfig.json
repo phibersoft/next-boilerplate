@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "ts_dist",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "types": ["express", "node"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./server/*.ts",
+    "./server/**/.ts",
+    "./client/**/.ts",
+    "./client/*.ts",
+    "./controllers/*.ts",
+    "./controllers/**/*.ts"
+  ],
+  "exclude": ["node_modules", ".vscode"]
+}

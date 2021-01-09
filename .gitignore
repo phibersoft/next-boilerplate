@@ -1,0 +1,6 @@
+node_modules/
+.vscode/
+client/*.js
+**/client/package.json
+**/client/package-lock.json
+.idea
